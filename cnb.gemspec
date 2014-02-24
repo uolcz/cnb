@@ -14,13 +14,8 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://www.uol.cz'
   s.license     = 'MIT'
 
-  s.files = [
-    'lib/cnb.rb',
-    'lib/cnb/load_config.rb',
-    'lib/cnb/cur_rates_parser.rb',
-    'lib/cnb/daily_cur_rates_parser.rb',
-    'lib/cnb/monthly_cur_rates_parser.rb'
-  ]
+  s.files = `git ls-files`.split("\n") - Dir["images/*"]
+  s.test_files = `git ls-files -- spec/**/*`.split("\n")
 
   s.require_paths = ['lib', 'config']
 
@@ -28,7 +23,4 @@ Gem::Specification.new do |s|
   s.add_development_dependency('rake')
   s.add_development_dependency('rspec', '~> 2.14.0')
   s.add_development_dependency('simplecov')
-
-  # s.files = `git ls-files`.split("\n") - Dir["images/*"]
-  # s.test_files = `git ls-files -- spec/**/*`.split("\n")
 end
