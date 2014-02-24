@@ -24,6 +24,11 @@ Gem::Specification.new do |s|
 
   s.require_paths = ['lib', 'config']
 
+  s.add_development_dependency('pry')
+  s.add_development_dependency('rake')
+  s.add_development_dependency('rspec', '~> 2.14.0')
+  s.add_development_dependency('simplecov')
+
   # s.files = `git ls-files`.split("\n") - Dir["images/*"]
   # s.test_files = `git ls-files -- spec/**/*`.split("\n")
 end
