@@ -1,0 +1,13 @@
+## VIM
+*.swp
+
+## GIT
+.gitconfig
+
+## PROJECT::GENERAL
+Gemfile.lock
+coverage
+rdoc
+
+## PROJECT::SPECIFIC
+config/*.yml

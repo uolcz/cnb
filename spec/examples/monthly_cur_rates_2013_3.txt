@@ -1,0 +1,126 @@
+29.03.2013 #3
+země|měna|množství|kód|kurz
+Afghánistán|afghani|100|AFN|38,167
+Albánie|lek|100|ALL|18,474
+Alžírsko|dinár|100|DZD|25,454
+Angola|kwanza|100|AOA|20,964
+Argentina|peso|1|ARS|3,921
+Arménie|dram|100|AMD|4,808
+Aruba|gulden|1|AWG|11,276
+Ázerbájdžán|manat|1|AZN|25,622
+Bahamy|dolar|1|BSD|20,072
+Bahrajn|dinár|1|BHD|53,246
+Bangladéš|taka|100|BDT|25,717
+Barbados|dolar|1|BBD|10,036
+Belize|dolar|1|BZD|9,937
+Bělorusko|rubl|100|BYR|0,233
+Bermudy|dolar|1|BMD|20,072
+Bhútán|ngultrum|100|BTN|36,979
+Bolivie|boliviano|1|BOB|2,884
+Bosna a Hercegovina|marka|1|BAM|13,158
+Botswana|pula|1|BWP|2,429
+Brunej|dolar|1|BND|16,179
+Burundi|frank|100|BIF|1,294
+Cape Verde|escudo|100|CVE|23,457
+Curacao a St. Marteen|gulden|1|ANG|11,276
+Dominikánská republika|peso|100|DOP|49,136
+Džibutsko|frank|100|DJF|11,489
+Egypt|libra|1|EGP|2,950
+Eritrea|nakfa|1|ERN|1,379
+Etiopie|birr|1|ETB|1,090
+Falklandy|libra|1|FKP|30,520
+Fidži|dolar|1|FJD|11,142
+Francouzská Polynésie|frank CFP|100|XPF|21,695
+Gambie|dalasi|100|GMD|62,725
+Ghana|Ghana cedi|1|GHS|10,360
+Gibraltar|libra|1|GIP|30,520
+Gruzie|lari|1|GEL|12,108
+Guatemala|quetzal|1|GTQ|2,581
+Guinea|frank|1000|GNF|2,896
+Guyana|dolar|100|GYD|9,926
+Haiti|gourde|100|HTG|47,228
+Honduras|lempira|1|HNL|1,024
+Chile|peso|100|CLP|4,258
+Irák|dinar|1000|IQD|17,303
+Írán|rial|1000|IRR|1,637
+Island|koruna|100|ISK|16,227
+Jamajka|dolar|100|JMD|20,597
+Jemen|rial|100|YER|9,368
+Jordánsko|dinár|1|JOD|28,354
+Kajmanské ostrovy|dolar|1|KYD|24,478
+Kambodža|riel|1000|KHR|5,041
+Katar|rial|1|QAR|5,513
+Kazachstán|tenge|100|KZT|13,302
+Keňa|šilink|100|KES|23,586
+KLDR|won|1|KPW|15,440
+Kolumbie|peso|1000|COP|11,016
+Komory|frank|100|KMF|5,234
+Konžská demokratická republika|frank|100|CDF|2,220
+Kostarika|colon|100|CRC|4,027
+Kuba|peso|1|CUP|20,072
+Kuvajt|dinár|1|KWD|70,478
+Kyrgyzstán|som|100|KGS|42,465
+Laos|kip|1000|LAK|2,570
+Lesotho|loti|1|LSL|2,175
+Libanon|libra|1000|LBP|13,372
+Libérie|dolar|100|LRD|27,216
+Libye|dinár|1|LYD|15,664
+Macao|pataca|1|MOP|2,513
+Madagaskar|ariary|1000|MGA|8,977
+Makedonie|denár|100|MKD|42,301
+Malawi|kwacha|100|MWK|5,282
+Maledivy|rufiya|1|MVR|1,321
+Maroko|dirham|1|MAD|2,321
+Mauritánie|ouguiya|100|MRO|7,299
+Mauritius|rupie|100|MUR|64,644
+Moldávie|leu|1|MDL|1,625
+Mongolsko|tugrik|100|MNT|1,439
+Mosambik|nový metical|1000|MZN|669,067
+Myanmar|kyat|1|MMK|0,023
+Namibie|dolar|1|NAD|2,175
+Nepál|rupie|100|NPR|23,242
+Nigérie|naira|100|NGN|12,668
+Nikaragua|cordoba |1|NIO|0,829
+Omán|rial|1|OMR|52,139
+Pákistán|rupie|100|PKR|20,409
+Panama|balboa|1|PAB|20,072
+Papua-Nová Quinea|kina|1|PGK|9,103
+Paraguay|guarani|1000|PYG|5,018
+Peru|nuevo sol|1|PEN|7,754
+Rwanda|frank|100|RWF|3,186
+Salvádor|colon|1|SVC|2,296
+Samoa|tala|1|WST|8,659
+Saudská Arábie|riyal|1|SAR|5,352
+Seychely|rupie|1|SCR|1,781
+Sierra-Leone|leone|1000|SLL|4,647
+Somálsko|šilink|1000|SOS|13,231
+Spojené arabské emiráty|dirham|1|AED|5,465
+Srbsko|dinár|100|RSD|23,100
+Srí Lanka|rupie|100|LKR|15,842
+Státy střední Afriky|frank CFA|100|XAF|3,924
+Státy západní Afriky|frank CFA|100|XOF|3,924
+Súdán|libra|1|SDG|4,562
+Surinam|dolar|1|SRD|6,176
+Svatá Helena|libra|1|SHP|30,520
+Svatý Tomáš a Princův ostrov|dobra|1000|STD|1,083
+Svazijsko|lilangeni|1|SZL|2,175
+Sýrie|libra|100|SYP|28,503
+Šalomounovy ostrovy|dolar|1|SBD|2,740
+Tádžikistán|somoni|1|TJS|4,222
+Taiwan|dolar|100|TWD|67,333
+Tanzanie|šilink|100|TZS|1,245
+Tonga|pa`anga|1|TOP|11,453
+Trinidad a Tobago|dolar|1|TTD|3,141
+Tunisko|dinár|1|TND|12,596
+Turkmenistán|nový manat|1|TMT|7,055
+Uganda|šilink|100|UGX|0,777
+Ukrajina|hřivna|1|UAH|2,468
+Uruguay|peso|100|UYU|106,766
+Uzbekistán|sum|100|UZS|0,993
+Vanuatu|vatu|100|VUV|22,128
+Venezuela|bolivar|1|VEF|3,194
+Vietnam|dong|1000|VND|0,959
+Východní Timor|escudo|1|TPE|20,072
+Východokaribská oblast|dolar|1|XCD|7,518
+Zambie|kwacha|1|ZMW|3,741
+Zimbabwe|dolar|1000|ZWL|0,000
