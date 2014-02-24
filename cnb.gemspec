@@ -19,8 +19,8 @@ Gem::Specification.new do |s|
 
   s.require_paths = ['lib', 'config']
 
-  s.add_development_dependency('pry')
-  s.add_development_dependency('rake')
-  s.add_development_dependency('rspec', '~> 2.14.0')
-  s.add_development_dependency('simplecov')
+  s.add_development_dependency('pry', '~> 0.9')
+  s.add_development_dependency('rake', '~> 0.9')
+  s.add_development_dependency('rspec', '~> 2.14')
+  s.add_development_dependency('simplecov', '~> 0.8')
 end
