@@ -28,7 +28,7 @@ module CNB
     def parse(filepath)
       @date = parse_date(filepath)
       cur_rates = File.read(filepath)
-      lines = cur_rates.lines
+      lines = cur_rates.lines.to_a
 
       lines.shift(2)
       lines.each do |line|
