@@ -12,19 +12,19 @@ describe CNB::DailyCurRatesParser do
 
   describe '#cur_rate' do
     it 'returns currency rate' do
-      expect(@parser.cur_rate('USD')).to eq(19.927)
+      expect(@parser.rate('USD')).to eq(19.927)
     end
 
     it 'raises error if currency with given code is not included in the exchange rates file' do
-      expect{@parser.cur_rate('USX')}.to raise_error(StandardError)
+      expect{@parser.rate('USX')}.to raise_error(StandardError)
     end
   end
 
   it 'returns country name' do
-    expect(@parser.cur_name('USD')).to eq('dolar')
+    expect(@parser.name('USD')).to eq('dolar')
   end
 
   it 'returns currency name' do
-    expect(@parser.cur_country('USD')).to eq('USA')
+    expect(@parser.country('USD')).to eq('USA')
   end
 end

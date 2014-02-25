@@ -6,21 +6,21 @@ module CNB
 
     attr_reader :cur_rates_filepath, :date
 
-    def cur_rate(cur_code)
-      get_cur(cur_code)[:rate]
+    def rate(cur_code)
+      get_currency(cur_code)[:rate]
     end
 
-    def cur_name(cur_code)
-      get_cur(cur_code)[:name]
+    def name(cur_code)
+      get_currency(cur_code)[:name]
     end
 
-    def cur_country(cur_code)
-      get_cur(cur_code)[:country]
+    def country(cur_code)
+      get_currency(cur_code)[:country]
     end
 
     protected
 
-    def get_cur(cur_code)
+    def get_currency(cur_code)
       raise 'Currency with given code was not found in exchange rates list' unless @currencies[cur_code]
       @currencies[cur_code]
     end

@@ -24,19 +24,19 @@ describe CNB::MonthlyCurRatesParser do
 
   describe '#cur_rate' do
     it 'returns currency rate' do
-      expect(@parser.cur_rate('HNL')).to eq(1.024)
+      expect(@parser.rate('HNL')).to eq(1.024)
     end
 
     it 'raises error if currency wth given code is not included in the exchange rates file' do
-      expect{@parser.cur_rate('HNX')}.to raise_error(StandardError)
+      expect{@parser.rate('HNX')}.to raise_error(StandardError)
     end
   end
 
   it 'returns country name' do
-    expect(@parser.cur_country('HNL')).to eq('Honduras')
+    expect(@parser.country('HNL')).to eq('Honduras')
   end
 
   it 'returns currency name' do
-    expect(@parser.cur_name('HNL')).to eq('lempira')
+    expect(@parser.name('HNL')).to eq('lempira')
   end
 end

@@ -5,11 +5,11 @@ require_relative 'cnb/monthly_cur_rates_parser'
 
 module CNB
   class CNB
-    def self.daily_cur_rates
+    def self.daily_rates
       @parser = DailyCurRatesParser.new
     end
 
-    def self.monthly_cur_rates(month, year)
+    def self.monthly_rates(month, year)
       @parser = MonthlyCurRatesParser.new(month, year)
     end
 
@@ -17,16 +17,16 @@ module CNB
       @parser.date
     end
 
-    def self.cur_rate(cur_code)
-      @parser.cur_rate(cur_code)
+    def self.rate(cur_code)
+      @parser.rate(cur_code)
     end
 
-    def self.cur_name(cur_code)
-      @parser.cur_name(cur_code)
+    def self.name(cur_code)
+      @parser.name(cur_code)
     end
 
-    def self.cur_country(cur_code)
-      @parser.cur_country(cur_code)
+    def self.country(cur_code)
+      @parser.country(cur_code)
     end
   end
 end

@@ -24,19 +24,19 @@ Or install the gem by on your own
 ### Daily currency rates
 To work with current currency rates start with the following code:
 
-    CNB.daily_cur_rates
+    CNB.daily_rates
 
 Get currency rate of currency towards czech crown (CZK) with given currency code
 
-    CNB.cur_rate('USD')
+    CNB.rate('USD') # 19.927 (float value)
 
 Get name of the currency in czech language.
 
-    CNB.cur_name('USD') # dolar
+    CNB.name('USD') # dolar
 
 Get name of the country where the currency comes from in czech language.
 
-    CNB.cur_country('USD') # USA
+    CNB.country('USD') # USA
 
 Get date when the currency rates were published. Czech National Bank does not publish currency rates during the weekend, so may want to check when exactly were the values published.
 
@@ -50,13 +50,13 @@ Some currency rates are published on monthly basis. You can get currency rates f
 To get the monthly currency rates use the following code:
 
     # Get currency rates for March 2013
-    CNB.monthly_cur_rates(3, 2013)
+    CNB.monthly_rates(3, 2013)
 
 After using the code above, you can use the same methods as for the daily currency rates.
 
-    CNB.cur_rate('HNL')
-    CNB.cur_name('HNL') # lempira
-    CNB.cur_country('HNL') # Honduras
+    CNB.rate('HNL')
+    CNB.name('HNL') # lempira
+    CNB.country('HNL') # Honduras
     CNB.date
 
 
