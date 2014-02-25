@@ -21,6 +21,7 @@ module CNB
     protected
 
     def get_currency(cur_code)
+      cur_code.upcase!
       raise 'Currency with given code was not found in exchange rates list' unless @currencies[cur_code]
       @currencies[cur_code]
     end

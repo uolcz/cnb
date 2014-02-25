@@ -41,6 +41,8 @@ Get name of the country where the currency comes from in czech language.
 
     CNB.country('USD') # USA
 
+The currency code is not case sensitive.
+
 Get date when the currency rates were published. Czech National Bank does not publish currency rates during the weekend, so may want to check when exactly were the values published.
 
     CNB.date
