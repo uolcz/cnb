@@ -2,8 +2,9 @@ require 'spec_helper'
 
 describe CNB::MonthlyCurRatesParser do
   before(:each) do
+    filepath = File.join('spec', 'examples', 'monthly_cur_rates_2013_3.txt')
+    CNB::MonthlyCurRatesParser.any_instance.stub(:cur_rates_filepath) { filepath }
     @parser = CNB::MonthlyCurRatesParser.new(3, 2013)
-    @parser.stub(:cur_rates_filepath) { File.join('spec', 'examples', 'monthly_cur_rates_2013_3.txt') }
   end
 
   it 'raises error if required month is invalid' do

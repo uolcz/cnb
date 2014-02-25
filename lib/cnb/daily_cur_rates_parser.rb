@@ -11,13 +11,13 @@ module CNB
     private
 
     def parse
-      if File.exist?(@cur_rates_filepath)
-        download_cur_rates(@cur_rates_url) unless parse_date(@cur_rates_filepath) == Date.today
+      if File.exist?(cur_rates_filepath)
+        download_cur_rates(@cur_rates_url) unless parse_date(cur_rates_filepath) == Date.today
       else
         download_cur_rates(@cur_rates_url)
       end
 
-      super(@cur_rates_filepath)
+      super(cur_rates_filepath)
     end
   end
 end

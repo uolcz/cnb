@@ -17,8 +17,8 @@ module CNB
     private
 
     def parse
-      download_cur_rates(@cur_rates_url) unless File.exist?(@cur_rates_filepath)
-      super(@cur_rates_filepath)
+      download_cur_rates(@cur_rates_url) unless File.exist?(cur_rates_filepath)
+      super(cur_rates_filepath)
     end
 
     def valid_month?
