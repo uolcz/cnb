@@ -6,4 +6,10 @@ elsif File.exists?(ENV['HOME'] + '/.cnb.yml')
   filename = ENV['HOME'] + '/.cnb.yml'
 end
 
-CONFIG = YAML.load_file(filename)
+if filename
+  CONFIG = YAML.load_file(filename)
+else
+  CONFIG = {}
+end
+
+CONFIG['exchange_rates_dir'] ||= '/tmp'
