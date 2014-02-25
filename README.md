@@ -66,6 +66,8 @@ The currency rates are downloaded to your disk so you don't have to download the
 
     config/cnb.yml
 
+If configuration file is missing files are downloaded into /tmp directory.
+
 
 ## Contributing
 
