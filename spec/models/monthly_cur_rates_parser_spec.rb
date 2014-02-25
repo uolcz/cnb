@@ -28,6 +28,10 @@ describe CNB::MonthlyCurRatesParser do
       expect(@parser.rate('HNL')).to eq(1.024)
     end
 
+    it 'returns currency rate no matter the case of the currency code' do
+      expect(@parser.rate('hnl')).to eq(1.024)
+    end
+
     it 'raises error if currency wth given code is not included in the exchange rates file' do
       expect{@parser.rate('HNX')}.to raise_error(StandardError)
     end

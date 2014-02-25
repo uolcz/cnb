@@ -16,6 +16,10 @@ describe CNB::DailyCurRatesParser do
       expect(@parser.rate('USD')).to eq(19.927)
     end
 
+    it 'returns currency rate no matter the case of currency code' do
+      expect(@parser.rate('usd')).to eq(19.927)
+    end
+
     it 'raises error if currency with given code is not included in the exchange rates file' do
       expect{@parser.rate('USX')}.to raise_error(StandardError)
     end
