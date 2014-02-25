@@ -4,6 +4,8 @@ require_relative 'cnb/daily_cur_rates_parser'
 require_relative 'cnb/monthly_cur_rates_parser'
 
 module CNB
+  PRIMARY_CURRENCY = 'CZK'
+
   class << self
     def daily_rates
       @parser = DailyCurRatesParser.new

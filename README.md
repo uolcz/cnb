@@ -60,6 +60,13 @@ After using the code above, you can use the same methods as for the daily curren
     CNB.date
 
 
+### Primary currency
+
+Czech National Bank provides all currency rates towards czech crown (CZK). You can get the primary currency with the following code
+
+    CNB::PRIMARY_CURRENCY # CZK
+
+
 ## Configuration
 
 The currency rates are downloaded to your disk so you don't have to download them repeatedly. You can set directory where the files should be stored in the configuration file
