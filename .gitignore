@@ -8,6 +8,7 @@
 Gemfile.lock
 coverage
 rdoc
+pkg
 
 ## PROJECT::SPECIFIC
 config/*.yml
