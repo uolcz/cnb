@@ -1,7 +1,7 @@
 require 'open-uri'
 
 module CNB
-  class CurRatesParser
+  class CurrencyRates
     CUR_RATES_URL = 'http://www.cnb.cz/cs/financni_trhy/devizovy_trh/'
 
     attr_reader :cur_rates_filepath, :date

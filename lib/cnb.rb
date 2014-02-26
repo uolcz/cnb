@@ -1,18 +1,18 @@
 require_relative 'cnb/load_config'
-require_relative 'cnb/cur_rates_parser'
-require_relative 'cnb/daily_cur_rates_parser'
-require_relative 'cnb/monthly_cur_rates_parser'
+require_relative 'cnb/currency_rates'
+require_relative 'cnb/daily_rates'
+require_relative 'cnb/monthly_rates'
 
 module CNB
   PRIMARY_CURRENCY = 'CZK'
 
   class << self
     def daily_rates
-      @parser = DailyCurRatesParser.new
+      @parser = DailyRates.new
     end
 
     def monthly_rates(month, year)
-      @parser = MonthlyCurRatesParser.new(month, year)
+      @parser = MonthlyRates.new(month, year)
     end
 
     def date

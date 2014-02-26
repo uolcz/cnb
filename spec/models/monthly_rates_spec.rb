@@ -1,22 +1,22 @@
 require 'spec_helper'
 
-describe CNB::MonthlyCurRatesParser do
+describe CNB::MonthlyRates do
   before(:each) do
-    filepath = File.join('spec', 'examples', 'monthly_cur_rates_2013_3.txt')
-    CNB::MonthlyCurRatesParser.any_instance.stub(:cur_rates_filepath) { filepath }
-    @parser = CNB::MonthlyCurRatesParser.new(3, 2013)
+    filepath = File.join('spec', 'fixtures', 'monthly_cur_rates_2013_3.txt')
+    CNB::MonthlyRates.any_instance.stub(:cur_rates_filepath) { filepath }
+    @parser = CNB::MonthlyRates.new(3, 2013)
   end
 
   it 'raises error if required month is invalid' do
-    expect{CNB::MonthlyCurRatesParser.new('abc', 2013)}.to raise_error(StandardError)
-    expect{CNB::MonthlyCurRatesParser.new(0, 2013)}.to raise_error(StandardError)
-    expect{CNB::MonthlyCurRatesParser.new(13, 2013)}.to raise_error(StandardError)
+    expect{CNB::MonthlyRates.new('abc', 2013)}.to raise_error(StandardError)
+    expect{CNB::MonthlyRates.new(0, 2013)}.to raise_error(StandardError)
+    expect{CNB::MonthlyRates.new(13, 2013)}.to raise_error(StandardError)
   end
 
   it 'raises error if required year is invalid' do
-    expect{CNB::MonthlyCurRatesParser.new(3, 'abc')}.to raise_error(StandardError)
-    expect{CNB::MonthlyCurRatesParser.new(3, 2000)}.to raise_error(StandardError)
-    expect{CNB::MonthlyCurRatesParser.new(3, 2050)}.to raise_error(StandardError)
+    expect{CNB::MonthlyRates.new(3, 'abc')}.to raise_error(StandardError)
+    expect{CNB::MonthlyRates.new(3, 2000)}.to raise_error(StandardError)
+    expect{CNB::MonthlyRates.new(3, 2050)}.to raise_error(StandardError)
   end
 
   it 'returns date from the exchange rates file' do

@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-describe CNB::DailyCurRatesParser do
+describe CNB::DailyRates do
   before(:each) do
-    filepath = File.join('spec', 'examples', 'daily_cur_rates.txt')
-    CNB::DailyCurRatesParser.any_instance.stub(:cur_rates_filepath) { filepath }
-    @parser = CNB::DailyCurRatesParser.new
+    filepath = File.join('spec', 'fixtures', 'daily_cur_rates.txt')
+    CNB::DailyRates.any_instance.stub(:cur_rates_filepath) { filepath }
+    @parser = CNB::DailyRates.new
   end
 
   it 'returns date from the exchange rates file' do

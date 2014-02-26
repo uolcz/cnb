@@ -7,9 +7,9 @@ if ENV['COVERAGE']
 end
 
 require 'cnb/load_config'
-require 'cnb/cur_rates_parser'
-require 'cnb/daily_cur_rates_parser'
-require 'cnb/monthly_cur_rates_parser'
+require 'cnb/currency_rates'
+require 'cnb/daily_rates'
+require 'cnb/monthly_rates'
 
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.

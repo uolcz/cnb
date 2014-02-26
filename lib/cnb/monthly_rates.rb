@@ -1,5 +1,5 @@
 module CNB
-  class MonthlyCurRatesParser < CurRatesParser
+  class MonthlyRates < CurrencyRates
     def initialize(month, year)
       @month = month
       @year = year
