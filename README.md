@@ -47,6 +47,8 @@ Get date when the currency rates were published. Czech National Bank does not pu
 
     CNB.date
 
+Daily currency rates are used by default, so you can use the methods for getting rates, currency names and countries straight away.
+
 
 ### Monthly currency rates
 

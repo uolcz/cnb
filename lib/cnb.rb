@@ -15,19 +15,25 @@ module CNB
     end
 
     def date
-      @parser.date
+      parser.date
     end
 
     def rate(cur_code)
-      @parser.rate(cur_code)
+      parser.rate(cur_code)
     end
 
     def name(cur_code)
-      @parser.name(cur_code)
+      parser.name(cur_code)
     end
 
     def country(cur_code)
-      @parser.country(cur_code)
+      parser.country(cur_code)
+    end
+
+    private
+
+    def parser
+      @parser ||= DailyRates.new
     end
   end
 end
