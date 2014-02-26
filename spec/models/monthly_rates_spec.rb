@@ -3,7 +3,7 @@ require 'spec_helper'
 describe CNB::MonthlyRates do
   before(:each) do
     filepath = File.join('spec', 'fixtures', 'monthly_cur_rates_2013_3.txt')
-    CNB::MonthlyRates.any_instance.stub(:cur_rates_filepath) { filepath }
+    CNB::MonthlyRates.any_instance.stub(:get_page_content) { File.read(filepath) }
     @parser = CNB::MonthlyRates.new(3, 2013)
   end
 

@@ -3,7 +3,7 @@ require 'spec_helper'
 describe CNB::DailyRates do
   before(:each) do
     filepath = File.join('spec', 'fixtures', 'daily_cur_rates.txt')
-    CNB::DailyRates.any_instance.stub(:cur_rates_filepath) { filepath }
+    CNB::DailyRates.any_instance.stub(:get_page_content) { File.read(filepath) }
     @parser = CNB::DailyRates.new
   end
 
