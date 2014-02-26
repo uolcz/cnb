@@ -1,4 +1,5 @@
 require 'open-uri'
+require 'nokogiri'
 
 module CNB
   class CurrencyRates
@@ -26,35 +27,20 @@ module CNB
       @currencies[cur_code]
     end
 
-    def parse
-      text = get_page_content(@cur_rates_url)
-      lines = text.split("\n")
-      @date = parse_date(lines.first)
+    def get_currencies
+      xml_doc = Nokogiri::XML(open(@cur_rates_url))
+      @date = Date.parse(xml_doc.css('kurzy').attr('datum').value)
 
-      lines.shift(2)
-      lines.each do |line|
-        cur = parse_cur(line)
-        @currencies[cur[:cur_code]] = cur[:data]
+      xml_doc.css('radek').each do |currency|
+        amount = currency.attr('mnozstvi').to_f
+        rate = currency.attr('kurz').tr(',', '.').to_f
+
+        @currencies[currency.attr('kod')] = {
+          country: currency.attr('zeme'),
+          name: currency.attr('mena'),
+          rate: rate / amount
+        }
       end
-    end
-
-    def parse_cur(line)
-      columns = line.split('|')
-      amount = columns[2].to_f
-      rate = columns[4].chomp.tr(',', '.').to_f
-
-      data = { country: columns[0], name: columns[1], rate: rate / amount }
-      { cur_code: columns[3], data: data }
-    end
-
-    def parse_date(line)
-      date = line[0..line.index('#') - 1].chomp
-      Date.parse(date)
-    end
-
-    def get_page_content(url)
-      file = open(url)
-      file.read
     end
   end
 end

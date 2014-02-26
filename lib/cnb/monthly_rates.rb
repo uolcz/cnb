@@ -8,9 +8,9 @@ module CNB
       raise 'Invalid month given' unless valid_year?
 
       @currencies = {}
-      @cur_rates_url = "#{CUR_RATES_URL}/kurzy_ostatnich_men/kurzy.txt?mesic=#{month}&rok=#{year}"
+      @cur_rates_url = "#{CUR_RATES_URL}/kurzy_ostatnich_men/kurzy.xml?mesic=#{month}&rok=#{year}"
 
-      parse
+      get_currencies
     end
 
     private
