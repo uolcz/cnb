@@ -72,15 +72,6 @@ Czech National Bank provides all currency rates towards czech crown (CZK). You c
     CNB::PRIMARY_CURRENCY # CZK
 
 
-## Configuration
-
-The currency rates are downloaded to your disk so you don't have to download them repeatedly. You can set directory where the files should be stored in the configuration file
-
-    config/cnb.yml
-
-If configuration file is missing files are downloaded into /tmp directory.
-
-
 ## Contributing
 
 1. Fork it

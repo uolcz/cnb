@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.authors     = ['Jan Zikán']
   s.email       = ['zikan@uol.cz']
   s.summary     = 'CNB currency rates'
-  s.description = 'Gem for downloading and parsing currency rates from Czech National Bank'
+  s.description = 'Get daily and monthly currency rates from Czech National Bank'
   s.homepage    = 'http://www.uol.cz'
   s.license     = 'MIT'
 
