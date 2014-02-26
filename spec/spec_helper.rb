@@ -6,7 +6,6 @@ if ENV['COVERAGE']
   SimpleCov.start
 end
 
-require 'cnb/load_config'
 require 'cnb/currency_rates'
 require 'cnb/daily_rates'
 require 'cnb/monthly_rates'

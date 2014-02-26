@@ -26,10 +26,10 @@ module CNB
       @currencies[cur_code]
     end
 
-    def parse(filepath)
-      @date = parse_date(filepath)
-      cur_rates = File.read(filepath)
-      lines = cur_rates.lines.to_a
+    def parse
+      text = get_page_content(@cur_rates_url)
+      lines = text.split("\n")
+      @date = parse_date(lines.first)
 
       lines.shift(2)
       lines.each do |line|
@@ -47,17 +47,9 @@ module CNB
       { cur_code: columns[3], data: data }
     end
 
-    def parse_date(filepath)
-      line = File.open(filepath) { |f| f.readline }
+    def parse_date(line)
       date = line[0..line.index('#') - 1].chomp
       Date.parse(date)
-    end
-
-    def download_cur_rates(url)
-      content = get_page_content(url)
-      f = File.new(@cur_rates_filepath, 'w')
-      f.write(content)
-      f.close
     end
 
     def get_page_content(url)

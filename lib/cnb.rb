@@ -1,4 +1,3 @@
-require_relative 'cnb/load_config'
 require_relative 'cnb/currency_rates'
 require_relative 'cnb/daily_rates'
 require_relative 'cnb/monthly_rates'
