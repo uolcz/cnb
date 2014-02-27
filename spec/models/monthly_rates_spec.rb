@@ -9,15 +9,15 @@ describe CNB::MonthlyRates do
   end
 
   it 'raises error if required month is invalid' do
-    expect{CNB::MonthlyRates.new('abc', 2013)}.to raise_error(StandardError)
-    expect{CNB::MonthlyRates.new(0, 2013)}.to raise_error(StandardError)
-    expect{CNB::MonthlyRates.new(13, 2013)}.to raise_error(StandardError)
+    expect { CNB::MonthlyRates.new('abc', 2013) }.to raise_error(StandardError)
+    expect { CNB::MonthlyRates.new(0, 2013) }.to raise_error(StandardError)
+    expect { CNB::MonthlyRates.new(13, 2013) }.to raise_error(StandardError)
   end
 
   it 'raises error if required year is invalid' do
-    expect{CNB::MonthlyRates.new(3, 'abc')}.to raise_error(StandardError)
-    expect{CNB::MonthlyRates.new(3, 2000)}.to raise_error(StandardError)
-    expect{CNB::MonthlyRates.new(3, 2050)}.to raise_error(StandardError)
+    expect { CNB::MonthlyRates.new(3, 'abc') }.to raise_error(StandardError)
+    expect { CNB::MonthlyRates.new(3, 2000) }.to raise_error(StandardError)
+    expect { CNB::MonthlyRates.new(3, 2050) }.to raise_error(StandardError)
   end
 
   it 'returns date from the exchange rates file' do
@@ -34,7 +34,7 @@ describe CNB::MonthlyRates do
     end
 
     it 'raises error if currency wth given code is not included in the exchange rates file' do
-      expect{@parser.rate('HNX')}.to raise_error(StandardError)
+      expect { @parser.rate('HNX') }.to raise_error(StandardError)
     end
   end
 
