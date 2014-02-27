@@ -12,7 +12,7 @@ describe 'CNB' do
 
     it 'always returns the same object' do
       rates = CNB.daily_rates
-      expect(CNB.daily_rates.object_id).to eq rates.object_id
+      expect(CNB.daily_rates).to eq rates
     end
   end
 
@@ -27,8 +27,8 @@ describe 'CNB' do
 
     it 'always returns the same object for the same combination of month and year params' do
       rates = CNB.monthly_rates(11, 2013)
-      expect(CNB.monthly_rates(11, 2013).object_id).to eq rates.object_id
-      expect(CNB.monthly_rates(10, 2013).object_id).not_to eq rates.object_id
+      expect(CNB.monthly_rates(11, 2013)).to eq rates
+      expect(CNB.monthly_rates(10, 2013)).not_to eq rates
     end
   end
 end
