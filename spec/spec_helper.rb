@@ -6,9 +6,7 @@ if ENV['COVERAGE']
   SimpleCov.start
 end
 
-require 'cnb/currency_rates'
-require 'cnb/daily_rates'
-require 'cnb/monthly_rates'
+require 'cnb'
 
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
