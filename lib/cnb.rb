@@ -1,6 +1,6 @@
-require_relative 'cnb/currency_rates'
-require_relative 'cnb/daily_rates'
-require_relative 'cnb/monthly_rates'
+require 'cnb/currency_rates'
+require 'cnb/daily_rates'
+require 'cnb/monthly_rates'
 
 module CNB
   PRIMARY_CURRENCY = 'CZK'
