@@ -29,6 +29,8 @@ module CNB
 
     def get_currencies
       xml_doc = Nokogiri::XML(open(@cur_rates_url))
+      raise 'Currency rates are not available at the moment' if xml_doc.text.empty?
+
       @date = Date.parse(xml_doc.css('kurzy').attr('datum').value)
 
       xml_doc.css('radek').each do |currency|
