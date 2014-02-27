@@ -7,33 +7,11 @@ module CNB
 
   class << self
     def daily_rates
-      @parser = DailyRates.new
+      DailyRates.new
     end
 
     def monthly_rates(month, year)
-      @parser = MonthlyRates.new(month, year)
-    end
-
-    def date
-      parser.date
-    end
-
-    def rate(cur_code)
-      parser.rate(cur_code)
-    end
-
-    def name(cur_code)
-      parser.name(cur_code)
-    end
-
-    def country(cur_code)
-      parser.country(cur_code)
-    end
-
-    private
-
-    def parser
-      @parser ||= DailyRates.new
+      MonthlyRates.new(month, year)
     end
   end
 end

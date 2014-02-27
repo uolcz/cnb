@@ -25,29 +25,42 @@ Or install the gem by on your own
 
 
 ### Daily currency rates
-To work with current currency rates start with the following code:
+To work with daily currency rates start with the following code:
 
     CNB.daily_rates
 
-Get currency rate of currency towards czech crown (CZK) with given currency code
+This will provide you object from which you can get the currency rates and other information. Everytime you use the code above, actual currency rates are retrived from Czech National Bank, so it is a good idea to assign the result to variable if you don't want to make more HTTP requests than neccessary.
 
-    CNB.rate('USD') # 19.927 (float value)
+Get currency rate of currency with given currency code towards czech crown (CZK)
+
+    CNB.daily_rates.rate('USD') # 19.927 (float value)
+    CNB.daily_rates.rate('EUR') # 27.34
+
+By using the code above you make 2 requests for currency rates.
+
+The following code does the same thing but it retrives the currency rates just once.
+
+    daily_rates = CNB.daily_rates
+    daily_rates.rate('USD')
+    daily_rates.rate('EUR')
 
 Get name of the currency in czech language.
 
-    CNB.name('USD') # dolar
+    CNB.daily_rates.name('USD') # dolar
 
 Get name of the country where the currency comes from in czech language.
 
-    CNB.country('USD') # USA
+    CNB.daily_rates.country('USD') # USA
 
-The currency code is not case sensitive.
+**The currency code parameter is not case sensitive.**
 
-Get date when the currency rates were published. Czech National Bank does not publish currency rates during the weekend, so may want to check when exactly were the values published.
+Get date when the currency rates were published. Czech National Bank does not publish currency rates during the weekend, so you may want to check when exactly were the values published.
 
     CNB.date
 
-Daily currency rates are used by default, so you can use the methods for getting rates, currency names and countries straight away.
+You can get all currencies as hash where currency codes are used as keys by the following code
+
+    CNB.daily_rates.currencies
 
 
 ### Monthly currency rates
@@ -59,12 +72,19 @@ To get the monthly currency rates use the following code:
     # Get currency rates for March 2013
     CNB.monthly_rates(3, 2013)
 
+You can only retrieve monthly currency rates that were published since 2004. If you try to get older currency rates, exception will be raised.
+
 After using the code above, you can use the same methods as for the daily currency rates.
 
-    CNB.rate('HNL')
-    CNB.name('HNL') # lempira
-    CNB.country('HNL') # Honduras
-    CNB.date
+    monthly_rates = CNB.monthly_rates(3, 2013)
+    monthly_rates.rate('HNL')
+    monthly_rates.name('HNL') # lempira
+    monthly_rates.country('HNL') # Honduras
+    monthly_rates.date
+
+Get all currencies as hash
+
+    CNB.monthly_rates(3, 2013).currencies
 
 
 ### Primary currency
