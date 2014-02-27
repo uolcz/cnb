@@ -5,7 +5,7 @@ module CNB
   class CurrencyRates
     CUR_RATES_URL = 'http://www.cnb.cz/cs/financni_trhy/devizovy_trh/'
 
-    attr_reader :cur_rates_filepath, :date
+    attr_reader :date, :currencies
 
     def rate(cur_code)
       get_currency(cur_code)[:rate]
