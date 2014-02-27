@@ -4,8 +4,8 @@ module CNB
       @month = month
       @year = year
 
-      raise 'Invalid year given' unless valid_month?
-      raise 'Invalid month given' unless valid_year?
+      raise 'Invalid month given' unless valid_month?
+      raise 'Invalid year given' unless valid_year?
 
       @currencies = {}
       @cur_rates_url = "#{CUR_RATES_URL}/kurzy_ostatnich_men/kurzy.xml?mesic=#{month}&rok=#{year}"
