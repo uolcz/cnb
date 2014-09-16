@@ -1,4 +1,6 @@
 require 'rubygems'
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
 
 # COVERAGE=true rspec
 if ENV['COVERAGE']
