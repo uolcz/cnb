@@ -3,6 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/cnb.png)](http://badge.fury.io/rb/cnb)
 [![Build Status](https://travis-ci.org/ucetnictvi-on-line/cnb.png?branch=master)](https://travis-ci.org/ucetnictvi-on-line/cnb)
 [![Code Climate](https://codeclimate.com/github/ucetnictvi-on-line/cnb/badges/gpa.svg)](https://codeclimate.com/github/ucetnictvi-on-line/cnb)
+[![Test Coverage](https://codeclimate.com/github/ucetnictvi-on-line/cnb/badges/coverage.svg)](https://codeclimate.com/github/ucetnictvi-on-line/cnb)
 
 CNB is a gem that will help you get daily and monthly currency rates for czech crown (CZK) from Czech National Bank. Besides the currency rate you can also get name of the currency, name of the country where it is used and date when the currency rates were published.
 
