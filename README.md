@@ -2,6 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/cnb.png)](http://badge.fury.io/rb/cnb)
 [![Build Status](https://travis-ci.org/ucetnictvi-on-line/cnb.png?branch=master)](https://travis-ci.org/ucetnictvi-on-line/cnb)
+[![Dependency Status](https://gemnasium.com/ucetnictvi-on-line/cnb.svg)](https://gemnasium.com/ucetnictvi-on-line/cnb)
 [![Code Climate](https://codeclimate.com/github/ucetnictvi-on-line/cnb/badges/gpa.svg)](https://codeclimate.com/github/ucetnictvi-on-line/cnb)
 [![Test Coverage](https://codeclimate.com/github/ucetnictvi-on-line/cnb/badges/coverage.svg)](https://codeclimate.com/github/ucetnictvi-on-line/cnb)
 
