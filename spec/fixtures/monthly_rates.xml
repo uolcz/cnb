@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <kurzy banka="CNB" datum="28.02.2014" poradi="2">
+    <tabulka typ="XML_TYP_CNB_KURZY_DEVIZOVEHO_TRHU">
+      <radek kod="AFN" mena="afghani" mnozstvi="100" kurz="35,137" zeme="Afghánistán" />
+      <radek kod="ALL" mena="lek" mnozstvi="100" kurz="19,564" zeme="Albánie" />
+      <radek kod="DZD" mena="dinár" mnozstvi="100" kurz="25,541" zeme="Alžírsko" />
+      <radek kod="AOA" mena="kwanza" mnozstvi="100" kurz="20,328" zeme="Angola" />
+      <radek kod="ARS" mena="peso" mnozstvi="1" kurz="2,510" zeme="Argentina" />
+      <radek kod="AMD" mena="dram" mnozstvi="100" kurz="4,792" zeme="Arménie" />
+      <radek kod="AWG" mena="gulden" mnozstvi="1" kurz="11,119" zeme="Aruba" />
+      <radek kod="AZN" mena="manat" mnozstvi="1" kurz="25,295" zeme="Ázerbájdžán" />
+      <radek kod="BSD" mena="dolar" mnozstvi="1" kurz="19,791" zeme="Bahamy" />
+      <radek kod="BHD" mena="dinár" mnozstvi="1" kurz="52,496" zeme="Bahrajn" />
+      <radek kod="BDT" mena="taka" mnozstvi="100" kurz="25,580" zeme="Bangladéš" />
+      <radek kod="BBD" mena="dolar" mnozstvi="1" kurz="10,033" zeme="Barbados" />
+      <radek kod="BZD" mena="dolar" mnozstvi="1" kurz="10,046" zeme="Belize" />
+      <radek kod="BYR" mena="rubl" mnozstvi="100" kurz="0,203" zeme="Bělorusko" />
+      <radek kod="BMD" mena="dolar" mnozstvi="1" kurz="19,791" zeme="Bermudy" />
+      <radek kod="BTN" mena="ngultrum" mnozstvi="100" kurz="32,029" zeme="Bhútán" />
+      <radek kod="BOB" mena="boliviano" mnozstvi="1" kurz="2,885" zeme="Bolivie" />
+      <radek kod="BAM" mena="marka" mnozstvi="1" kurz="13,979" zeme="Bosna a Hercegovina" />
+      <radek kod="BWP" mena="pula" mnozstvi="1" kurz="2,238" zeme="Botswana" />
+      <radek kod="BND" mena="dolar" mnozstvi="1" kurz="15,634" zeme="Brunej" />
+      <radek kod="BIF" mena="frank" mnozstvi="100" kurz="1,280" zeme="Burundi" />
+      <radek kod="ANG" mena="gulden" mnozstvi="1" kurz="11,119" zeme="Curacao a St. Marteen" />
+      <radek kod="DOP" mena="peso" mnozstvi="100" kurz="46,133" zeme="Dominikánská republika" />
+      <radek kod="DJF" mena="frank" mnozstvi="100" kurz="11,329" zeme="Džibutsko" />
+      <radek kod="EGP" mena="libra" mnozstvi="1" kurz="2,843" zeme="Egypt" />
+      <radek kod="ERN" mena="nakfa" mnozstvi="1" kurz="1,333" zeme="Eritrea" />
+      <radek kod="ETB" mena="birr" mnozstvi="1" kurz="1,030" zeme="Etiopie" />
+      <radek kod="FKP" mena="libra" mnozstvi="1" kurz="33,088" zeme="Falklandy" />
+      <radek kod="FJD" mena="dolar" mnozstvi="1" kurz="10,485" zeme="Fidži" />
+      <radek kod="XPF" mena="frank CFP" mnozstvi="100" kurz="23,045" zeme="Francouzská Polynésie" />
+      <radek kod="GMD" mena="dalasi" mnozstvi="100" kurz="52,357" zeme="Gambie" />
+      <radek kod="GHS" mena="Ghana cedi" mnozstvi="1" kurz="7,769" zeme="Ghana" />
+      <radek kod="GIP" mena="libra" mnozstvi="1" kurz="33,088" zeme="Gibraltar" />
+      <radek kod="GEL" mena="lari" mnozstvi="1" kurz="11,417" zeme="Gruzie" />
+      <radek kod="GTQ" mena="quetzal" mnozstvi="1" kurz="2,553" zeme="Guatemala" />
+      <radek kod="GNF" mena="frank" mnozstvi="1000" kurz="2,919" zeme="Guinea" />
+      <radek kod="GYD" mena="dolar" mnozstvi="100" kurz="9,739" zeme="Guyana" />
+      <radek kod="HTG" mena="gourde" mnozstvi="100" kurz="45,146" zeme="Haiti" />
+      <radek kod="HNL" mena="lempira" mnozstvi="1" kurz="1,012" zeme="Honduras" />
+      <radek kod="CLP" mena="peso" mnozstvi="100" kurz="3,535" zeme="Chile" />
+      <radek kod="IQD" mena="dinar" mnozstvi="1000" kurz="17,003" zeme="Irák" />
+      <radek kod="IRR" mena="rial" mnozstvi="1000" kurz="0,795" zeme="Írán" />
+      <radek kod="ISK" mena="koruna" mnozstvi="100" kurz="17,616" zeme="Island" />
+      <radek kod="JMD" mena="dolar" mnozstvi="100" kurz="18,376" zeme="Jamajka" />
+      <radek kod="YER" mena="rial" mnozstvi="100" kurz="9,218" zeme="Jemen" />
+      <radek kod="JOD" mena="dinár" mnozstvi="1" kurz="27,977" zeme="Jordánsko" />
+      <radek kod="KYD" mena="dolar" mnozstvi="1" kurz="24,135" zeme="Kajmanské ostrovy" />
+      <radek kod="KHR" mena="riel" mnozstvi="1000" kurz="4,974" zeme="Kambodža" />
+      <radek kod="CVE" mena="escudo" mnozstvi="100" kurz="25,160" zeme="Kapverdy" />
+      <radek kod="QAR" mena="rial" mnozstvi="1" kurz="5,435" zeme="Katar" />
+      <radek kod="KZT" mena="tenge" mnozstvi="100" kurz="10,733" zeme="Kazachstán" />
+      <radek kod="KES" mena="šilink" mnozstvi="100" kurz="22,978" zeme="Keňa" />
+      <radek kod="KPW" mena="won" mnozstvi="1" kurz="15,224" zeme="KLDR" />
+      <radek kod="COP" mena="peso" mnozstvi="1000" kurz="9,679" zeme="Kolumbie" />
+      <radek kod="KMF" mena="frank" mnozstvi="100" kurz="5,521" zeme="Komory" />
+      <radek kod="CDF" mena="frank" mnozstvi="100" kurz="2,177" zeme="Konžská demokratická republika" />
+      <radek kod="CRC" mena="colon" mnozstvi="100" kurz="3,942" zeme="Kostarika" />
+      <radek kod="CUP" mena="peso" mnozstvi="1" kurz="19,791" zeme="Kuba" />
+      <radek kod="KWD" mena="dinár" mnozstvi="1" kurz="70,426" zeme="Kuvajt" />
+      <radek kod="KGS" mena="som" mnozstvi="100" kurz="36,786" zeme="Kyrgyzstán" />
+      <radek kod="LAK" mena="kip" mnozstvi="1000" kurz="2,468" zeme="Laos" />
+      <radek kod="LSL" mena="loti" mnozstvi="1" kurz="1,852" zeme="Lesotho" />
+      <radek kod="LBP" mena="libra" mnozstvi="1000" kurz="13,161" zeme="Libanon" />
+      <radek kod="LRD" mena="dolar" mnozstvi="100" kurz="24,433" zeme="Libérie" />
+      <radek kod="LYD" mena="dinár" mnozstvi="1" kurz="16,039" zeme="Libye" />
+      <radek kod="MOP" mena="pataca" mnozstvi="1" kurz="2,478" zeme="Macao" />
+      <radek kod="MGA" mena="ariary" mnozstvi="1000" kurz="8,512" zeme="Madagaskar" />
+      <radek kod="MKD" mena="denár" mnozstvi="100" kurz="44,364" zeme="Makedonie" />
+      <radek kod="MWK" mena="kwacha" mnozstvi="100" kurz="4,769" zeme="Malawi" />
+      <radek kod="MVR" mena="rufiya" mnozstvi="1" kurz="1,299" zeme="Maledivy" />
+      <radek kod="MAD" mena="dirham" mnozstvi="1" kurz="2,428" zeme="Maroko" />
+      <radek kod="MRO" mena="ouguiya" mnozstvi="100" kurz="6,872" zeme="Mauritánie" />
+      <radek kod="MUR" mena="rupie" mnozstvi="100" kurz="66,191" zeme="Mauritius" />
+      <radek kod="MDL" mena="leu" mnozstvi="1" kurz="1,457" zeme="Moldavsko" />
+      <radek kod="MNT" mena="tugrik" mnozstvi="100" kurz="1,151" zeme="Mongolsko" />
+      <radek kod="MZN" mena="nový metical" mnozstvi="1000" kurz="615,583" zeme="Mosambik" />
+      <radek kod="MMK" mena="kyat" mnozstvi="1" kurz="0,020" zeme="Myanmar" />
+      <radek kod="NAD" mena="dolar" mnozstvi="1" kurz="1,852" zeme="Namibie" />
+      <radek kod="NPR" mena="rupie" mnozstvi="100" kurz="20,031" zeme="Nepál" />
+      <radek kod="NGN" mena="naira" mnozstvi="100" kurz="12,016" zeme="Nigérie" />
+      <radek kod="NIO" mena="cordoba " mnozstvi="1" kurz="0,783" zeme="Nikaragua" />
+      <radek kod="OMR" mena="rial" mnozstvi="1" kurz="51,407" zeme="Omán" />
+      <radek kod="PKR" mena="rupie" mnozstvi="100" kurz="18,872" zeme="Pákistán" />
+      <radek kod="PAB" mena="balboa" mnozstvi="1" kurz="19,791" zeme="Panama" />
+      <radek kod="PGK" mena="kina" mnozstvi="1" kurz="7,125" zeme="Papua-Nová Quinea" />
+      <radek kod="PYG" mena="guarani" mnozstvi="1000" kurz="4,465" zeme="Paraguay" />
+      <radek kod="PEN" mena="nuevo sol" mnozstvi="1" kurz="7,071" zeme="Peru" />
+      <radek kod="RWF" mena="frank" mnozstvi="100" kurz="2,932" zeme="Rwanda" />
+      <radek kod="SVC" mena="colon" mnozstvi="1" kurz="2,264" zeme="Salvádor" />
+      <radek kod="WST" mena="tala" mnozstvi="1" kurz="8,312" zeme="Samoa" />
+      <radek kod="SAR" mena="riyal" mnozstvi="1" kurz="5,277" zeme="Saudská Arábie" />
+      <radek kod="SCR" mena="rupie" mnozstvi="1" kurz="1,650" zeme="Seychely" />
+      <radek kod="SLL" mena="leone" mnozstvi="1000" kurz="4,573" zeme="Sierra-Leone" />
+      <radek kod="SOS" mena="šilink" mnozstvi="1000" kurz="19,271" zeme="Somálsko" />
+      <radek kod="AED" mena="dirham" mnozstvi="1" kurz="5,388" zeme="Spojené arabské emiráty" />
+      <radek kod="RSD" mena="dinár" mnozstvi="100" kurz="23,614" zeme="Srbsko" />
+      <radek kod="LKR" mena="rupie" mnozstvi="100" kurz="15,142" zeme="Srí Lanka" />
+      <radek kod="XAF" mena="frank CFA" mnozstvi="100" kurz="4,166" zeme="Státy střední Afriky" />
+      <radek kod="XOF" mena="frank CFA" mnozstvi="100" kurz="4,142" zeme="Státy západní Afriky" />
+      <radek kod="SDG" mena="libra" mnozstvi="1" kurz="3,484" zeme="Súdán" />
+      <radek kod="SRD" mena="dolar" mnozstvi="1" kurz="6,090" zeme="Surinam" />
+      <radek kod="SHP" mena="libra" mnozstvi="1" kurz="33,088" zeme="Svatá Helena" />
+      <radek kod="STD" mena="dobra" mnozstvi="1000" kurz="1,150" zeme="Svatý Tomáš a Princův ostrov" />
+      <radek kod="SZL" mena="lilangeni" mnozstvi="1" kurz="1,852" zeme="Svazijsko" />
+      <radek kod="SYP" mena="libra" mnozstvi="100" kurz="13,825" zeme="Sýrie" />
+      <radek kod="SBD" mena="dolar" mnozstvi="1" kurz="2,656" zeme="Šalomounovy ostrovy" />
+      <radek kod="TJS" mena="somoni" mnozstvi="1" kurz="4,160" zeme="Tádžikistán" />
+      <radek kod="TWD" mena="dolar" mnozstvi="100" kurz="65,315" zeme="Taiwan" />
+      <radek kod="TZS" mena="šilink" mnozstvi="100" kurz="1,222" zeme="Tanzanie" />
+      <radek kod="TOP" mena="pa`anga" mnozstvi="1" kurz="10,612" zeme="Tonga" />
+      <radek kod="TTD" mena="dolar" mnozstvi="1" kurz="3,102" zeme="Trinidad a Tobago" />
+      <radek kod="TND" mena="dinár" mnozstvi="1" kurz="12,567" zeme="Tunisko" />
+      <radek kod="TMT" mena="nový manat" mnozstvi="1" kurz="6,956" zeme="Turkmenistán" />
+      <radek kod="UGX" mena="šilink" mnozstvi="100" kurz="0,783" zeme="Uganda" />
+      <radek kod="UAH" mena="hřivna" mnozstvi="1" kurz="2,040" zeme="Ukrajina" />
+      <radek kod="UYU" mena="peso" mnozstvi="100" kurz="88,274" zeme="Uruguay" />
+      <radek kod="UZS" mena="sum" mnozstvi="100" kurz="0,891" zeme="Uzbekistán" />
+      <radek kod="VUV" mena="vatu" mnozstvi="100" kurz="20,828" zeme="Vanuatu" />
+      <radek kod="VEF" mena="bolivar" mnozstvi="1" kurz="3,149" zeme="Venezuela" />
+      <radek kod="VND" mena="dong" mnozstvi="1000" kurz="0,939" zeme="Vietnam" />
+      <radek kod="XCD" mena="dolar" mnozstvi="1" kurz="7,497" zeme="Východokaribská oblast" />
+      <radek kod="ZMW" mena="kwacha" mnozstvi="1" kurz="3,403" zeme="Zambie" />
+      <radek kod="ZWL" mena="dolar" mnozstvi="1000" kurz="0,000" zeme="Zimbabwe" />
+    </tabulka>
+  </kurzy>
