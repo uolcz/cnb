@@ -10,6 +10,8 @@ CNB is a gem that will help you get daily and monthly currency rates for czech c
 
 ## Install
 
+
+
 Add following into your Gemfile
 
 ```ruby
@@ -27,22 +29,20 @@ gem install cnb
 ### Daily
 
 ```ruby
-CNB.exchange_rate('AUD', Date.today)
+CNB.daily_rate('AUD', Date.today)
 ```
 
 Returns today's exchange rate between CZK and AUD.
 Input date defaults to Date.today so the above line can written like this:
 
 ```ruby
-CNB.exchange_rate('AUD')
+CNB.daily_rate('AUD')
 ```
 
 ### Monthly
-You can set monthly switch to true whenever it's necessary to work with less known currencies.
-These currencies are updated on monthly basis.
 
 ```ruby
-CNB.exchange_rate('ALL', Date.today, monthly = true)
+CNB.monthly_rate('ALL', Date.today)
 ```
 
 Returns today's exchange rate between CZK and ALL (Albanian lek).
