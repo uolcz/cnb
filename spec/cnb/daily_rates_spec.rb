@@ -15,7 +15,7 @@ RSpec.describe CNB::DailyRates do
   describe '#rate_for' do
     before do
       Timecop.freeze('25.02.2014')
-      url = CNB::DAILY_URL + Date.today.strftime('%d.%m.%Y')
+      url = CNB::BASE_URL + CNB::DAILY + Date.today.strftime('%d.%m.%Y')
       stub_request(:get, url)
         .to_return(status: 200, body: load_fixture)
     end

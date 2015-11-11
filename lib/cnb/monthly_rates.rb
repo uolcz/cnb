@@ -9,7 +9,7 @@ module CNB
     private
 
     def url_for(date)
-      CNB::MONTHLY_URL + date.strftime('%m') +
+      CNB::BASE_URL + CNB::MONTHLY + date.strftime('%m') +
         CNB::MONTHLY_SEP + date.strftime('%Y')
     end
   end

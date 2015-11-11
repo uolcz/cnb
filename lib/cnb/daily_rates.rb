@@ -11,7 +11,7 @@ module CNB
     private
 
     def url_for(date)
-      CNB::DAILY_URL + date.strftime('%d.%m.%Y')
+      CNB::BASE_URL + CNB::DAILY + date.strftime('%d.%m.%Y')
     end
   end
 end

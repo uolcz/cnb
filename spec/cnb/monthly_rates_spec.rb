@@ -15,7 +15,7 @@ RSpec.describe CNB::MonthlyRates do
   describe '#rate_for' do
     before do
       Timecop.freeze('25.02.2014')
-      url = CNB::MONTHLY_URL + Date.today.strftime('%m') +
+      url = CNB::BASE_URL + CNB::MONTHLY + Date.today.strftime('%m') +
             CNB::MONTHLY_SEP + Date.today.strftime('%Y')
       stub_request(:get, url)
         .to_return(status: 200, body: load_fixture)
