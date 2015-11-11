@@ -37,9 +37,5 @@ module CNB
     def normalize_date(date)
       date.is_a?(Date) ? date : Date.parse(date)
     end
-
-    def max_past(date, years)
-      date.year < (Date.today.year - years)
-    end
   end
 end

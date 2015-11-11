@@ -2,7 +2,7 @@ module CNB
   class MonthlyRates < Base
     def rate_for(currency, date = Date.today)
       normalized_date = normalize_date(date)
-      fail DateTooOld if max_past(normalized_date, CNB::MONTHLY_MAX_PAST)
+      fail DateTooOld if normalized_date.year < (Date.today.year - CNB::MONTHLY_MAX_PAST)
       super(currency, normalized_date)
     end
 
