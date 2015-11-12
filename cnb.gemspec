@@ -27,4 +27,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency('pry')
   s.add_development_dependency('webmock')
   s.add_development_dependency('timecop')
+  s.add_development_dependency('simplecov', '~> 0.8')
+  s.add_development_dependency('codeclimate-test-reporter')
 end
