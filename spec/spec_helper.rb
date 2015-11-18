@@ -1,5 +1,8 @@
 require 'rubygems'
+require 'webmock/rspec'
 require "codeclimate-test-reporter"
+
+WebMock.disable_net_connect!(allow: "https://codeclimate.com/test_reports")
 CodeClimate::TestReporter.start
 
 # COVERAGE=true rspec
