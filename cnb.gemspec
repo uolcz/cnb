@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.files       = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   s.test_files  = `git ls-files -- spec/**/*`.split("\n")
 
-  s.require_paths = %w('lib', 'config')
+  s.require_paths = %w(lib)
 
   s.add_dependency('nokogiri', '~> 1.6')
   s.add_development_dependency('bundler')
