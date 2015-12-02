@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('bundler')
   s.add_development_dependency('rake', '~> 10.4')
   s.add_development_dependency('rspec', '~> 2.14')
+  s.add_development_dependency('rubocop', '~> 0.35.1')
   s.add_development_dependency('pry')
   s.add_development_dependency('webmock')
   s.add_development_dependency('timecop')
