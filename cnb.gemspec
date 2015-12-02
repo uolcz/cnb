@@ -18,12 +18,13 @@ Gem::Specification.new do |s|
   s.files       = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   s.test_files  = `git ls-files -- spec/**/*`.split("\n")
 
-  s.require_paths = %w('lib', 'config')
+  s.require_paths = %w(lib)
 
   s.add_dependency('nokogiri', '~> 1.6')
   s.add_development_dependency('bundler')
   s.add_development_dependency('rake', '~> 10.4')
   s.add_development_dependency('rspec', '~> 2.14')
+  s.add_development_dependency('rubocop', '~> 0.35.1')
   s.add_development_dependency('pry')
   s.add_development_dependency('webmock')
   s.add_development_dependency('timecop')
