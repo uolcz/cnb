@@ -13,7 +13,7 @@ module CNB
 
       fail CurrencyNotSupported if rate.nil?
 
-      rate.attr('kurz').tr(',', '.').to_f
+      rate.attr('kurz').tr(',', '.').to_f / rate.attr('mnozstvi').to_f
     end
 
     private

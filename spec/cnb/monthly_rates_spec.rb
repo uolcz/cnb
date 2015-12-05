@@ -27,11 +27,11 @@ RSpec.describe CNB::MonthlyRates do
 
     context 'valid parameters' do
       it 'returns rate for given currency and date' do
-        expect(monthly_rates.rate_for(currency, Date.today)).to eql(19.564)
+        expect(monthly_rates.rate_for(currency, Date.today)).to eql(0.19564)
       end
 
       it 'returns rate for given currency with default date' do
-        expect(monthly_rates.rate_for(currency)).to eql(19.564)
+        expect(monthly_rates.rate_for(currency)).to eql(0.19564)
       end
     end
 
